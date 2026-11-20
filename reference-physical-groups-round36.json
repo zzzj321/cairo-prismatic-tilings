@@ -1,0 +1,2697 @@
+{
+  "evidence": "exact-check",
+  "scope": "Complete physical isometries of eight specified periodic HS constructions; not unrestricted classification.",
+  "backend": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "arithmetic": "fractions.Fraction in Q(sqrt(3)); no floating decisions",
+  "algorithm": "24 linear parts; a C vertex image fixes phase; exact rays, vertices, faces and image-period translations; integer mirror-phase equation",
+  "results": [
+    {
+      "input": "matrix-p4-round36.json",
+      "input_sha256": "8c304da9eced881875e1586541f47a425e79055150909d250a1418d0da1fad27",
+      "expected": "p4",
+      "physical_group": "p4",
+      "matches_expected": true,
+      "input_periods": [
+        [
+          [
+            "7",
+            "5/2"
+          ],
+          [
+            "-3/2",
+            "0"
+          ]
+        ],
+        [
+          [
+            "3/2",
+            "0"
+          ],
+          [
+            "7",
+            "5/2"
+          ]
+        ]
+      ],
+      "unit_faces": {
+        "4": 70,
+        "3": 140
+      },
+      "vertex_types": {
+        "C": 100,
+        "P": 40
+      },
+      "translation_coset_count": 5,
+      "translation_phases": [
+        [
+          [
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0"
+          ]
+        ],
+        [
+          [
+            "2",
+            "1/2"
+          ],
+          [
+            "5/2",
+            "1"
+          ]
+        ],
+        [
+          [
+            "4",
+            "1"
+          ],
+          [
+            "5",
+            "2"
+          ]
+        ],
+        [
+          [
+            "9/2",
+            "3/2"
+          ],
+          [
+            "1/2",
+            "1/2"
+          ]
+        ],
+        [
+          [
+            "13/2",
+            "2"
+          ],
+          [
+            "3",
+            "3/2"
+          ]
+        ]
+      ],
+      "full_translation_covolume": [
+        "14",
+        "7"
+      ],
+      "point_group_order": 4,
+      "rotation_subgroup_order": 4,
+      "true_mirror_linear_steps": [],
+      "centered_reflection_lattice": null,
+      "elements_mod_input_lattice": [
+        {
+          "rotation_step_30deg": 0,
+          "orientation_reversing": false,
+          "linear_matrix": [
+            [
+              "1",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ],
+            [
+              "1",
+              "0"
+            ]
+          ],
+          "phase_mod_input_lattice": [
+            [
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ]
+          ]
+        },
+        {
+          "rotation_step_30deg": 0,
+          "orientation_reversing": false,
+          "linear_matrix": [
+            [
+              "1",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ],
+            [
+              "1",
+              "0"
+            ]
+          ],
+          "phase_mod_input_lattice": [
+            [
+              "2",
+              "1/2"
+            ],
+            [
+              "5/2",
+              "1"
+            ]
+          ]
+        },
+        {
+          "rotation_step_30deg": 0,
+          "orientation_reversing": false,
+          "linear_matrix": [
+            [
+              "1",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ],
+            [
+              "1",
+              "0"
+            ]
+          ],
+          "phase_mod_input_lattice": [
+            [
+              "4",
+              "1"
+            ],
+            [
+              "5",
+              "2"
+            ]
+          ]
+        },
+        {
+          "rotation_step_30deg": 0,
+          "orientation_reversing": false,
+          "linear_matrix": [
+            [
+              "1",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ],
+            [
+              "1",
+              "0"
+            ]
+          ],
+          "phase_mod_input_lattice": [
+            [
+              "9/2",
+              "3/2"
+            ],
+            [
+              "1/2",
+              "1/2"
+            ]
+          ]
+        },
+        {
+          "rotation_step_30deg": 0,
+          "orientation_reversing": false,
+          "linear_matrix": [
+            [
+              "1",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ],
+            [
+              "1",
+              "0"
+            ]
+          ],
+          "phase_mod_input_lattice": [
+            [
+              "13/2",
+              "2"
+            ],
+            [
+              "3",
+              "3/2"
+            ]
+          ]
+        },
+        {
+          "rotation_step_30deg": 3,
+          "orientation_reversing": false,
+          "linear_matrix": [
+            [
+              "0",
+              "0"
+            ],
+            [
+              "-1",
+              "0"
+            ],
+            [
+              "1",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ]
+          ],
+          "phase_mod_input_lattice": [
+            [
+              "5/2",
+              "0"
+            ],
+            [
+              "4",
+              "3/2"
+            ]
+          ]
+        },
+        {
+          "rotation_step_30deg": 3,
+          "orientation_reversing": false,
+          "linear_matrix": [
+            [
+              "0",
+              "0"
+            ],
+            [
+              "-1",
+              "0"
+            ],
+            [
+              "1",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ]
+          ],
+          "phase_mod_input_lattice": [
+            [
+              "3",
+              "1/2"
+            ],
+            [
+              "-1/2",
+              "0"
+            ]
+          ]
+        },
+        {
+          "rotation_step_30deg": 3,
+          "orientation_reversing": false,
+          "linear_matrix": [
+            [
+              "0",
+              "0"
+            ],
+            [
+              "-1",
+              "0"
+            ],
+            [
+              "1",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ]
+          ],
+          "phase_mod_input_lattice": [
+            [
+              "5",
+              "1"
+            ],
+            [
+              "2",
+              "1"
+            ]
+          ]
+        },
+        {
+          "rotation_step_30deg": 3,
+          "orientation_reversing": false,
+          "linear_matrix": [
+            [
+              "0",
+              "0"
+            ],
+            [
+              "-1",
+              "0"
+            ],
+            [
+              "1",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ]
+          ],
+          "phase_mod_input_lattice": [
+            [
+              "7",
+              "3/2"
+            ],
+            [
+              "9/2",
+              "2"
+            ]
+          ]
+        },
+        {
+          "rotation_step_30deg": 3,
+          "orientation_reversing": false,
+          "linear_matrix": [
+            [
+              "0",
+              "0"
+            ],
+            [
+              "-1",
+              "0"
+            ],
+            [
+              "1",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ]
+          ],
+          "phase_mod_input_lattice": [
+            [
+              "15/2",
+              "2"
+            ],
+            [
+              "0",
+              "1/2"
+            ]
+          ]
+        },
+        {
+          "rotation_step_30deg": 6,
+          "orientation_reversing": false,
+          "linear_matrix": [
+            [
+              "-1",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ],
+            [
+              "-1",
+              "0"
+            ]
+          ],
+          "phase_mod_input_lattice": [
+            [
+              "3",
+              "0"
+            ],
+            [
+              "7",
+              "2"
+            ]
+          ]
+        },
+        {
+          "rotation_step_30deg": 6,
+          "orientation_reversing": false,
+          "linear_matrix": [
+            [
+              "-1",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ],
+            [
+              "-1",
+              "0"
+            ]
+          ],
+          "phase_mod_input_lattice": [
+            [
+              "7/2",
+              "1/2"
+            ],
+            [
+              "5/2",
+              "1/2"
+            ]
+          ]
+        },
+        {
+          "rotation_step_30deg": 6,
+          "orientation_reversing": false,
+          "linear_matrix": [
+            [
+              "-1",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ],
+            [
+              "-1",
+              "0"
+            ]
+          ],
+          "phase_mod_input_lattice": [
+            [
+              "11/2",
+              "1"
+            ],
+            [
+              "5",
+              "3/2"
+            ]
+          ]
+        },
+        {
+          "rotation_step_30deg": 6,
+          "orientation_reversing": false,
+          "linear_matrix": [
+            [
+              "-1",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ],
+            [
+              "-1",
+              "0"
+            ]
+          ],
+          "phase_mod_input_lattice": [
+            [
+              "6",
+              "3/2"
+            ],
+            [
+              "1/2",
+              "0"
+            ]
+          ]
+        },
+        {
+          "rotation_step_30deg": 6,
+          "orientation_reversing": false,
+          "linear_matrix": [
+            [
+              "-1",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ],
+            [
+              "-1",
+              "0"
+            ]
+          ],
+          "phase_mod_input_lattice": [
+            [
+              "8",
+              "2"
+            ],
+            [
+              "3",
+              "1"
+            ]
+          ]
+        },
+        {
+          "rotation_step_30deg": 9,
+          "orientation_reversing": false,
+          "linear_matrix": [
+            [
+              "0",
+              "0"
+            ],
+            [
+              "1",
+              "0"
+            ],
+            [
+              "-1",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ]
+          ],
+          "phase_mod_input_lattice": [
+            [
+              "5/2",
+              "1/2"
+            ],
+            [
+              "11/2",
+              "3/2"
+            ]
+          ]
+        },
+        {
+          "rotation_step_30deg": 9,
+          "orientation_reversing": false,
+          "linear_matrix": [
+            [
+              "0",
+              "0"
+            ],
+            [
+              "1",
+              "0"
+            ],
+            [
+              "-1",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ]
+          ],
+          "phase_mod_input_lattice": [
+            [
+              "3",
+              "1"
+            ],
+            [
+              "1",
+              "0"
+            ]
+          ]
+        },
+        {
+          "rotation_step_30deg": 9,
+          "orientation_reversing": false,
+          "linear_matrix": [
+            [
+              "0",
+              "0"
+            ],
+            [
+              "1",
+              "0"
+            ],
+            [
+              "-1",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ]
+          ],
+          "phase_mod_input_lattice": [
+            [
+              "5",
+              "3/2"
+            ],
+            [
+              "7/2",
+              "1"
+            ]
+          ]
+        },
+        {
+          "rotation_step_30deg": 9,
+          "orientation_reversing": false,
+          "linear_matrix": [
+            [
+              "0",
+              "0"
+            ],
+            [
+              "1",
+              "0"
+            ],
+            [
+              "-1",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ]
+          ],
+          "phase_mod_input_lattice": [
+            [
+              "7",
+              "2"
+            ],
+            [
+              "6",
+              "2"
+            ]
+          ]
+        },
+        {
+          "rotation_step_30deg": 9,
+          "orientation_reversing": false,
+          "linear_matrix": [
+            [
+              "0",
+              "0"
+            ],
+            [
+              "1",
+              "0"
+            ],
+            [
+              "-1",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ]
+          ],
+          "phase_mod_input_lattice": [
+            [
+              "15/2",
+              "5/2"
+            ],
+            [
+              "3/2",
+              "1/2"
+            ]
+          ]
+        }
+      ],
+      "search_statistics": {
+        "linear_candidates": 24,
+        "star_phase_candidates": 80,
+        "face_tests": 20
+      },
+      "elapsed_seconds": 2.610000000000582
+    },
+    {
+      "input": "matrix-p4g-round36.json",
+      "input_sha256": "440ff08aa4ebba2a2c60f0aa912a36358159e079c00be95209856e3efafd7fb1",
+      "expected": "p4g",
+      "physical_group": "p4g",
+      "matches_expected": true,
+      "input_periods": [
+        [
+          [
+            "3",
+            "1"
+          ],
+          [
+            "0",
+            "0"
+          ]
+        ],
+        [
+          [
+            "0",
+            "0"
+          ],
+          [
+            "3",
+            "1"
+          ]
+        ]
+      ],
+      "unit_faces": {
+        "4": 12,
+        "3": 24
+      },
+      "vertex_types": {
+        "C": 16,
+        "P": 8
+      },
+      "translation_coset_count": 2,
+      "translation_phases": [
+        [
+          [
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0"
+          ]
+        ],
+        [
+          [
+            "3/2",
+            "1/2"
+          ],
+          [
+            "3/2",
+            "1/2"
+          ]
+        ]
+      ],
+      "full_translation_covolume": [
+        "6",
+        "3"
+      ],
+      "point_group_order": 8,
+      "rotation_subgroup_order": 4,
+      "true_mirror_linear_steps": [
+        0,
+        6
+      ],
+      "centered_reflection_lattice": null,
+      "elements_mod_input_lattice": [
+        {
+          "rotation_step_30deg": 0,
+          "orientation_reversing": false,
+          "linear_matrix": [
+            [
+              "1",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ],
+            [
+              "1",
+              "0"
+            ]
+          ],
+          "phase_mod_input_lattice": [
+            [
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ]
+          ]
+        },
+        {
+          "rotation_step_30deg": 0,
+          "orientation_reversing": false,
+          "linear_matrix": [
+            [
+              "1",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ],
+            [
+              "1",
+              "0"
+            ]
+          ],
+          "phase_mod_input_lattice": [
+            [
+              "3/2",
+              "1/2"
+            ],
+            [
+              "3/2",
+              "1/2"
+            ]
+          ]
+        },
+        {
+          "rotation_step_30deg": 0,
+          "orientation_reversing": true,
+          "linear_matrix": [
+            [
+              "1",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ],
+            [
+              "-1",
+              "0"
+            ]
+          ],
+          "phase_mod_input_lattice": [
+            [
+              "0",
+              "0"
+            ],
+            [
+              "1",
+              "0"
+            ]
+          ],
+          "true_mirror_in_this_input_lattice_coset": true,
+          "glide_square_translation": [
+            [
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ]
+          ],
+          "mirror_lattice_shift": [
+            0,
+            0
+          ],
+          "mirror_phase": [
+            [
+              "0",
+              "0"
+            ],
+            [
+              "1",
+              "0"
+            ]
+          ]
+        },
+        {
+          "rotation_step_30deg": 0,
+          "orientation_reversing": true,
+          "linear_matrix": [
+            [
+              "1",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ],
+            [
+              "-1",
+              "0"
+            ]
+          ],
+          "phase_mod_input_lattice": [
+            [
+              "3/2",
+              "1/2"
+            ],
+            [
+              "5/2",
+              "1/2"
+            ]
+          ],
+          "true_mirror_in_this_input_lattice_coset": false,
+          "glide_square_translation": [
+            [
+              "3",
+              "1"
+            ],
+            [
+              "0",
+              "0"
+            ]
+          ]
+        },
+        {
+          "rotation_step_30deg": 3,
+          "orientation_reversing": false,
+          "linear_matrix": [
+            [
+              "0",
+              "0"
+            ],
+            [
+              "-1",
+              "0"
+            ],
+            [
+              "1",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ]
+          ],
+          "phase_mod_input_lattice": [
+            [
+              "3/2",
+              "0"
+            ],
+            [
+              "1",
+              "1/2"
+            ]
+          ]
+        },
+        {
+          "rotation_step_30deg": 3,
+          "orientation_reversing": false,
+          "linear_matrix": [
+            [
+              "0",
+              "0"
+            ],
+            [
+              "-1",
+              "0"
+            ],
+            [
+              "1",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ]
+          ],
+          "phase_mod_input_lattice": [
+            [
+              "3",
+              "1/2"
+            ],
+            [
+              "5/2",
+              "1"
+            ]
+          ]
+        },
+        {
+          "rotation_step_30deg": 3,
+          "orientation_reversing": true,
+          "linear_matrix": [
+            [
+              "0",
+              "0"
+            ],
+            [
+              "1",
+              "0"
+            ],
+            [
+              "1",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ]
+          ],
+          "phase_mod_input_lattice": [
+            [
+              "1/2",
+              "0"
+            ],
+            [
+              "1",
+              "1/2"
+            ]
+          ],
+          "true_mirror_in_this_input_lattice_coset": false,
+          "glide_square_translation": [
+            [
+              "3/2",
+              "1/2"
+            ],
+            [
+              "3/2",
+              "1/2"
+            ]
+          ]
+        },
+        {
+          "rotation_step_30deg": 3,
+          "orientation_reversing": true,
+          "linear_matrix": [
+            [
+              "0",
+              "0"
+            ],
+            [
+              "1",
+              "0"
+            ],
+            [
+              "1",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ]
+          ],
+          "phase_mod_input_lattice": [
+            [
+              "2",
+              "1/2"
+            ],
+            [
+              "5/2",
+              "1"
+            ]
+          ],
+          "true_mirror_in_this_input_lattice_coset": false,
+          "glide_square_translation": [
+            [
+              "9/2",
+              "3/2"
+            ],
+            [
+              "9/2",
+              "3/2"
+            ]
+          ]
+        },
+        {
+          "rotation_step_30deg": 6,
+          "orientation_reversing": false,
+          "linear_matrix": [
+            [
+              "-1",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ],
+            [
+              "-1",
+              "0"
+            ]
+          ],
+          "phase_mod_input_lattice": [
+            [
+              "2",
+              "0"
+            ],
+            [
+              "1",
+              "0"
+            ]
+          ]
+        },
+        {
+          "rotation_step_30deg": 6,
+          "orientation_reversing": false,
+          "linear_matrix": [
+            [
+              "-1",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ],
+            [
+              "-1",
+              "0"
+            ]
+          ],
+          "phase_mod_input_lattice": [
+            [
+              "7/2",
+              "1/2"
+            ],
+            [
+              "5/2",
+              "1/2"
+            ]
+          ]
+        },
+        {
+          "rotation_step_30deg": 6,
+          "orientation_reversing": true,
+          "linear_matrix": [
+            [
+              "-1",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ],
+            [
+              "1",
+              "0"
+            ]
+          ],
+          "phase_mod_input_lattice": [
+            [
+              "2",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ]
+          ],
+          "true_mirror_in_this_input_lattice_coset": true,
+          "glide_square_translation": [
+            [
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ]
+          ],
+          "mirror_lattice_shift": [
+            0,
+            0
+          ],
+          "mirror_phase": [
+            [
+              "2",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ]
+          ]
+        },
+        {
+          "rotation_step_30deg": 6,
+          "orientation_reversing": true,
+          "linear_matrix": [
+            [
+              "-1",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ],
+            [
+              "1",
+              "0"
+            ]
+          ],
+          "phase_mod_input_lattice": [
+            [
+              "7/2",
+              "1/2"
+            ],
+            [
+              "3/2",
+              "1/2"
+            ]
+          ],
+          "true_mirror_in_this_input_lattice_coset": false,
+          "glide_square_translation": [
+            [
+              "0",
+              "0"
+            ],
+            [
+              "3",
+              "1"
+            ]
+          ]
+        },
+        {
+          "rotation_step_30deg": 9,
+          "orientation_reversing": false,
+          "linear_matrix": [
+            [
+              "0",
+              "0"
+            ],
+            [
+              "1",
+              "0"
+            ],
+            [
+              "-1",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ]
+          ],
+          "phase_mod_input_lattice": [
+            [
+              "1/2",
+              "0"
+            ],
+            [
+              "3",
+              "1/2"
+            ]
+          ]
+        },
+        {
+          "rotation_step_30deg": 9,
+          "orientation_reversing": false,
+          "linear_matrix": [
+            [
+              "0",
+              "0"
+            ],
+            [
+              "1",
+              "0"
+            ],
+            [
+              "-1",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ]
+          ],
+          "phase_mod_input_lattice": [
+            [
+              "2",
+              "1/2"
+            ],
+            [
+              "3/2",
+              "0"
+            ]
+          ]
+        },
+        {
+          "rotation_step_30deg": 9,
+          "orientation_reversing": true,
+          "linear_matrix": [
+            [
+              "0",
+              "0"
+            ],
+            [
+              "-1",
+              "0"
+            ],
+            [
+              "-1",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ]
+          ],
+          "phase_mod_input_lattice": [
+            [
+              "3/2",
+              "0"
+            ],
+            [
+              "3",
+              "1/2"
+            ]
+          ],
+          "true_mirror_in_this_input_lattice_coset": false,
+          "glide_square_translation": [
+            [
+              "-3/2",
+              "-1/2"
+            ],
+            [
+              "3/2",
+              "1/2"
+            ]
+          ]
+        },
+        {
+          "rotation_step_30deg": 9,
+          "orientation_reversing": true,
+          "linear_matrix": [
+            [
+              "0",
+              "0"
+            ],
+            [
+              "-1",
+              "0"
+            ],
+            [
+              "-1",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ]
+          ],
+          "phase_mod_input_lattice": [
+            [
+              "3",
+              "1/2"
+            ],
+            [
+              "3/2",
+              "0"
+            ]
+          ],
+          "true_mirror_in_this_input_lattice_coset": false,
+          "glide_square_translation": [
+            [
+              "3/2",
+              "1/2"
+            ],
+            [
+              "-3/2",
+              "-1/2"
+            ]
+          ]
+        }
+      ],
+      "search_statistics": {
+        "linear_candidates": 24,
+        "star_phase_candidates": 16,
+        "face_tests": 16
+      },
+      "elapsed_seconds": 0.40600000000267755
+    },
+    {
+      "input": "matrix-cmm-round36.json",
+      "input_sha256": "519831b296ce12f2cf1741351c3d4c52f853495d97bd6e479e789ebfbb6f2d87",
+      "expected": "cmm",
+      "physical_group": "cmm",
+      "matches_expected": true,
+      "input_periods": [
+        [
+          [
+            "4",
+            "1"
+          ],
+          [
+            "0",
+            "0"
+          ]
+        ],
+        [
+          [
+            "0",
+            "0"
+          ],
+          [
+            "5",
+            "2"
+          ]
+        ]
+      ],
+      "unit_faces": {
+        "4": 26,
+        "3": 52
+      },
+      "vertex_types": {
+        "C": 32,
+        "P": 20
+      },
+      "translation_coset_count": 2,
+      "translation_phases": [
+        [
+          [
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0"
+          ]
+        ],
+        [
+          [
+            "2",
+            "1/2"
+          ],
+          [
+            "5/2",
+            "1"
+          ]
+        ]
+      ],
+      "full_translation_covolume": [
+        "13",
+        "13/2"
+      ],
+      "point_group_order": 4,
+      "rotation_subgroup_order": 2,
+      "true_mirror_linear_steps": [
+        0,
+        6
+      ],
+      "centered_reflection_lattice": true,
+      "elements_mod_input_lattice": [
+        {
+          "rotation_step_30deg": 0,
+          "orientation_reversing": false,
+          "linear_matrix": [
+            [
+              "1",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ],
+            [
+              "1",
+              "0"
+            ]
+          ],
+          "phase_mod_input_lattice": [
+            [
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ]
+          ]
+        },
+        {
+          "rotation_step_30deg": 0,
+          "orientation_reversing": false,
+          "linear_matrix": [
+            [
+              "1",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ],
+            [
+              "1",
+              "0"
+            ]
+          ],
+          "phase_mod_input_lattice": [
+            [
+              "2",
+              "1/2"
+            ],
+            [
+              "5/2",
+              "1"
+            ]
+          ]
+        },
+        {
+          "rotation_step_30deg": 0,
+          "orientation_reversing": true,
+          "linear_matrix": [
+            [
+              "1",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ],
+            [
+              "-1",
+              "0"
+            ]
+          ],
+          "phase_mod_input_lattice": [
+            [
+              "0",
+              "0"
+            ],
+            [
+              "1",
+              "0"
+            ]
+          ],
+          "true_mirror_in_this_input_lattice_coset": true,
+          "glide_square_translation": [
+            [
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ]
+          ],
+          "mirror_lattice_shift": [
+            0,
+            0
+          ],
+          "mirror_phase": [
+            [
+              "0",
+              "0"
+            ],
+            [
+              "1",
+              "0"
+            ]
+          ]
+        },
+        {
+          "rotation_step_30deg": 0,
+          "orientation_reversing": true,
+          "linear_matrix": [
+            [
+              "1",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ],
+            [
+              "-1",
+              "0"
+            ]
+          ],
+          "phase_mod_input_lattice": [
+            [
+              "2",
+              "1/2"
+            ],
+            [
+              "7/2",
+              "1"
+            ]
+          ],
+          "true_mirror_in_this_input_lattice_coset": false,
+          "glide_square_translation": [
+            [
+              "4",
+              "1"
+            ],
+            [
+              "0",
+              "0"
+            ]
+          ]
+        },
+        {
+          "rotation_step_30deg": 6,
+          "orientation_reversing": false,
+          "linear_matrix": [
+            [
+              "-1",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ],
+            [
+              "-1",
+              "0"
+            ]
+          ],
+          "phase_mod_input_lattice": [
+            [
+              "1",
+              "-1/2"
+            ],
+            [
+              "7/2",
+              "1"
+            ]
+          ]
+        },
+        {
+          "rotation_step_30deg": 6,
+          "orientation_reversing": false,
+          "linear_matrix": [
+            [
+              "-1",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ],
+            [
+              "-1",
+              "0"
+            ]
+          ],
+          "phase_mod_input_lattice": [
+            [
+              "3",
+              "0"
+            ],
+            [
+              "1",
+              "0"
+            ]
+          ]
+        },
+        {
+          "rotation_step_30deg": 6,
+          "orientation_reversing": true,
+          "linear_matrix": [
+            [
+              "-1",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ],
+            [
+              "1",
+              "0"
+            ]
+          ],
+          "phase_mod_input_lattice": [
+            [
+              "1",
+              "-1/2"
+            ],
+            [
+              "5/2",
+              "1"
+            ]
+          ],
+          "true_mirror_in_this_input_lattice_coset": false,
+          "glide_square_translation": [
+            [
+              "0",
+              "0"
+            ],
+            [
+              "5",
+              "2"
+            ]
+          ]
+        },
+        {
+          "rotation_step_30deg": 6,
+          "orientation_reversing": true,
+          "linear_matrix": [
+            [
+              "-1",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ],
+            [
+              "1",
+              "0"
+            ]
+          ],
+          "phase_mod_input_lattice": [
+            [
+              "3",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ]
+          ],
+          "true_mirror_in_this_input_lattice_coset": true,
+          "glide_square_translation": [
+            [
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ]
+          ],
+          "mirror_lattice_shift": [
+            0,
+            0
+          ],
+          "mirror_phase": [
+            [
+              "3",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ]
+          ]
+        }
+      ],
+      "search_statistics": {
+        "linear_candidates": 24,
+        "star_phase_candidates": 16,
+        "face_tests": 8
+      },
+      "elapsed_seconds": 0.5
+    },
+    {
+      "input": "matrix-cm-round36.json",
+      "input_sha256": "57f2c7ba7de79e0d5eb5839e9dfb842a723fc6411a6275baa29e212328ba591c",
+      "expected": "cm",
+      "physical_group": "cm",
+      "matches_expected": true,
+      "input_periods": [
+        [
+          [
+            "9",
+            "3"
+          ],
+          [
+            "0",
+            "0"
+          ]
+        ],
+        [
+          [
+            "0",
+            "0"
+          ],
+          [
+            "9",
+            "3"
+          ]
+        ]
+      ],
+      "unit_faces": {
+        "4": 108,
+        "3": 216
+      },
+      "vertex_types": {
+        "C": 144,
+        "P": 72
+      },
+      "translation_coset_count": 2,
+      "translation_phases": [
+        [
+          [
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0"
+          ]
+        ],
+        [
+          [
+            "9/2",
+            "3/2"
+          ],
+          [
+            "9/2",
+            "3/2"
+          ]
+        ]
+      ],
+      "full_translation_covolume": [
+        "54",
+        "27"
+      ],
+      "point_group_order": 2,
+      "rotation_subgroup_order": 1,
+      "true_mirror_linear_steps": [
+        6
+      ],
+      "centered_reflection_lattice": true,
+      "elements_mod_input_lattice": [
+        {
+          "rotation_step_30deg": 0,
+          "orientation_reversing": false,
+          "linear_matrix": [
+            [
+              "1",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ],
+            [
+              "1",
+              "0"
+            ]
+          ],
+          "phase_mod_input_lattice": [
+            [
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ]
+          ]
+        },
+        {
+          "rotation_step_30deg": 0,
+          "orientation_reversing": false,
+          "linear_matrix": [
+            [
+              "1",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ],
+            [
+              "1",
+              "0"
+            ]
+          ],
+          "phase_mod_input_lattice": [
+            [
+              "9/2",
+              "3/2"
+            ],
+            [
+              "9/2",
+              "3/2"
+            ]
+          ]
+        },
+        {
+          "rotation_step_30deg": 6,
+          "orientation_reversing": true,
+          "linear_matrix": [
+            [
+              "-1",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ],
+            [
+              "1",
+              "0"
+            ]
+          ],
+          "phase_mod_input_lattice": [
+            [
+              "3",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ]
+          ],
+          "true_mirror_in_this_input_lattice_coset": true,
+          "glide_square_translation": [
+            [
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ]
+          ],
+          "mirror_lattice_shift": [
+            0,
+            0
+          ],
+          "mirror_phase": [
+            [
+              "3",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ]
+          ]
+        },
+        {
+          "rotation_step_30deg": 6,
+          "orientation_reversing": true,
+          "linear_matrix": [
+            [
+              "-1",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ],
+            [
+              "1",
+              "0"
+            ]
+          ],
+          "phase_mod_input_lattice": [
+            [
+              "15/2",
+              "3/2"
+            ],
+            [
+              "9/2",
+              "3/2"
+            ]
+          ],
+          "true_mirror_in_this_input_lattice_coset": false,
+          "glide_square_translation": [
+            [
+              "0",
+              "0"
+            ],
+            [
+              "9",
+              "3"
+            ]
+          ]
+        }
+      ],
+      "search_statistics": {
+        "linear_candidates": 24,
+        "star_phase_candidates": 144,
+        "face_tests": 4
+      },
+      "elapsed_seconds": 1.9219999999986612
+    },
+    {
+      "input": "word-1123-round36.json",
+      "input_sha256": "8fb5e3033003e6fcb031aa8860725233c04ad016a2f5c8759707ee993b0f0e63",
+      "expected": "p1",
+      "physical_group": "p1",
+      "matches_expected": true,
+      "input_periods": [
+        [
+          [
+            "3",
+            "2"
+          ],
+          [
+            "2",
+            "0"
+          ]
+        ],
+        [
+          [
+            "-1/2",
+            "0"
+          ],
+          [
+            "1",
+            "1/2"
+          ]
+        ]
+      ],
+      "unit_faces": {
+        "4": 7,
+        "3": 14
+      },
+      "vertex_types": {
+        "C": 8,
+        "P": 6
+      },
+      "translation_coset_count": 1,
+      "translation_phases": [
+        [
+          [
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0"
+          ]
+        ]
+      ],
+      "full_translation_covolume": [
+        "7",
+        "7/2"
+      ],
+      "point_group_order": 1,
+      "rotation_subgroup_order": 1,
+      "true_mirror_linear_steps": [],
+      "centered_reflection_lattice": null,
+      "elements_mod_input_lattice": [
+        {
+          "rotation_step_30deg": 0,
+          "orientation_reversing": false,
+          "linear_matrix": [
+            [
+              "1",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ],
+            [
+              "1",
+              "0"
+            ]
+          ],
+          "phase_mod_input_lattice": [
+            [
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ]
+          ]
+        }
+      ],
+      "search_statistics": {
+        "linear_candidates": 24,
+        "star_phase_candidates": 4,
+        "face_tests": 1
+      },
+      "elapsed_seconds": 0.07800000000133878
+    },
+    {
+      "input": "word-1112-round36.json",
+      "input_sha256": "ef7cadae693f49b79a067d3db7ff5d0149797b5c8dc230c9b239c26b40ada27b",
+      "expected": "p2",
+      "physical_group": "p2",
+      "matches_expected": true,
+      "input_periods": [
+        [
+          [
+            "2",
+            "3/2"
+          ],
+          [
+            "3/2",
+            "0"
+          ]
+        ],
+        [
+          [
+            "-1/2",
+            "0"
+          ],
+          [
+            "1",
+            "1/2"
+          ]
+        ]
+      ],
+      "unit_faces": {
+        "4": 5,
+        "3": 10
+      },
+      "vertex_types": {
+        "C": 8,
+        "P": 2
+      },
+      "translation_coset_count": 1,
+      "translation_phases": [
+        [
+          [
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0"
+          ]
+        ]
+      ],
+      "full_translation_covolume": [
+        "5",
+        "5/2"
+      ],
+      "point_group_order": 2,
+      "rotation_subgroup_order": 2,
+      "true_mirror_linear_steps": [],
+      "centered_reflection_lattice": null,
+      "elements_mod_input_lattice": [
+        {
+          "rotation_step_30deg": 0,
+          "orientation_reversing": false,
+          "linear_matrix": [
+            [
+              "1",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ],
+            [
+              "1",
+              "0"
+            ]
+          ],
+          "phase_mod_input_lattice": [
+            [
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ]
+          ]
+        },
+        {
+          "rotation_step_30deg": 6,
+          "orientation_reversing": false,
+          "linear_matrix": [
+            [
+              "-1",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ],
+            [
+              "-1",
+              "0"
+            ]
+          ],
+          "phase_mod_input_lattice": [
+            [
+              "2",
+              "1/2"
+            ],
+            [
+              "3/2",
+              "0"
+            ]
+          ]
+        }
+      ],
+      "search_statistics": {
+        "linear_candidates": 24,
+        "star_phase_candidates": 4,
+        "face_tests": 2
+      },
+      "elapsed_seconds": 0.06199999999807915
+    },
+    {
+      "input": "word-1122-round36.json",
+      "input_sha256": "44fe4fd58f5dc42fc9cbf48e8babf9bb1e351f45440ef1060683d34979bd0739",
+      "expected": "pg",
+      "physical_group": "pg",
+      "matches_expected": true,
+      "input_periods": [
+        [
+          [
+            "3",
+            "3/2"
+          ],
+          [
+            "3/2",
+            "0"
+          ]
+        ],
+        [
+          [
+            "-1/2",
+            "0"
+          ],
+          [
+            "1",
+            "1/2"
+          ]
+        ]
+      ],
+      "unit_faces": {
+        "4": 6,
+        "3": 12
+      },
+      "vertex_types": {
+        "C": 8,
+        "P": 4
+      },
+      "translation_coset_count": 1,
+      "translation_phases": [
+        [
+          [
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0"
+          ]
+        ]
+      ],
+      "full_translation_covolume": [
+        "6",
+        "3"
+      ],
+      "point_group_order": 2,
+      "rotation_subgroup_order": 1,
+      "true_mirror_linear_steps": [],
+      "centered_reflection_lattice": null,
+      "elements_mod_input_lattice": [
+        {
+          "rotation_step_30deg": 0,
+          "orientation_reversing": false,
+          "linear_matrix": [
+            [
+              "1",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ],
+            [
+              "1",
+              "0"
+            ]
+          ],
+          "phase_mod_input_lattice": [
+            [
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ]
+          ]
+        },
+        {
+          "rotation_step_30deg": 7,
+          "orientation_reversing": true,
+          "linear_matrix": [
+            [
+              "0",
+              "-1/2"
+            ],
+            [
+              "-1/2",
+              "0"
+            ],
+            [
+              "-1/2",
+              "0"
+            ],
+            [
+              "0",
+              "1/2"
+            ]
+          ],
+          "phase_mod_input_lattice": [
+            [
+              "1",
+              "1/2"
+            ],
+            [
+              "3/2",
+              "0"
+            ]
+          ],
+          "true_mirror_in_this_input_lattice_coset": false,
+          "glide_square_translation": [
+            [
+              "-1/2",
+              "0"
+            ],
+            [
+              "1",
+              "1/2"
+            ]
+          ]
+        }
+      ],
+      "search_statistics": {
+        "linear_candidates": 24,
+        "star_phase_candidates": 8,
+        "face_tests": 2
+      },
+      "elapsed_seconds": 0.07800000000133878
+    },
+    {
+      "input": "word-2-round36.json",
+      "input_sha256": "0bda561dc8b410c57e80c59c468678f0e55093b85effe28eccad860e7f1a429d",
+      "expected": "pgg",
+      "physical_group": "pgg",
+      "matches_expected": true,
+      "input_periods": [
+        [
+          [
+            "2",
+            "1"
+          ],
+          [
+            "1",
+            "0"
+          ]
+        ],
+        [
+          [
+            "-1/2",
+            "0"
+          ],
+          [
+            "1",
+            "1/2"
+          ]
+        ]
+      ],
+      "unit_faces": {
+        "4": 4,
+        "3": 8
+      },
+      "vertex_types": {
+        "C": 4,
+        "P": 4
+      },
+      "translation_coset_count": 1,
+      "translation_phases": [
+        [
+          [
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0"
+          ]
+        ]
+      ],
+      "full_translation_covolume": [
+        "4",
+        "2"
+      ],
+      "point_group_order": 4,
+      "rotation_subgroup_order": 2,
+      "true_mirror_linear_steps": [],
+      "centered_reflection_lattice": null,
+      "elements_mod_input_lattice": [
+        {
+          "rotation_step_30deg": 0,
+          "orientation_reversing": false,
+          "linear_matrix": [
+            [
+              "1",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ],
+            [
+              "1",
+              "0"
+            ]
+          ],
+          "phase_mod_input_lattice": [
+            [
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ]
+          ]
+        },
+        {
+          "rotation_step_30deg": 1,
+          "orientation_reversing": true,
+          "linear_matrix": [
+            [
+              "0",
+              "1/2"
+            ],
+            [
+              "1/2",
+              "0"
+            ],
+            [
+              "1/2",
+              "0"
+            ],
+            [
+              "0",
+              "-1/2"
+            ]
+          ],
+          "phase_mod_input_lattice": [
+            [
+              "3/2",
+              "0"
+            ],
+            [
+              "1",
+              "1/2"
+            ]
+          ],
+          "true_mirror_in_this_input_lattice_coset": false,
+          "glide_square_translation": [
+            [
+              "2",
+              "1"
+            ],
+            [
+              "1",
+              "0"
+            ]
+          ]
+        },
+        {
+          "rotation_step_30deg": 6,
+          "orientation_reversing": false,
+          "linear_matrix": [
+            [
+              "-1",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ],
+            [
+              "-1",
+              "0"
+            ]
+          ],
+          "phase_mod_input_lattice": [
+            [
+              "2",
+              "0"
+            ],
+            [
+              "1",
+              "0"
+            ]
+          ]
+        },
+        {
+          "rotation_step_30deg": 7,
+          "orientation_reversing": true,
+          "linear_matrix": [
+            [
+              "0",
+              "-1/2"
+            ],
+            [
+              "-1/2",
+              "0"
+            ],
+            [
+              "-1/2",
+              "0"
+            ],
+            [
+              "0",
+              "1/2"
+            ]
+          ],
+          "phase_mod_input_lattice": [
+            [
+              "0",
+              "0"
+            ],
+            [
+              "1",
+              "0"
+            ]
+          ],
+          "true_mirror_in_this_input_lattice_coset": false,
+          "glide_square_translation": [
+            [
+              "-1/2",
+              "0"
+            ],
+            [
+              "1",
+              "1/2"
+            ]
+          ]
+        }
+      ],
+      "search_statistics": {
+        "linear_candidates": 24,
+        "star_phase_candidates": 4,
+        "face_tests": 4
+      },
+      "elapsed_seconds": 0.0629999999946449
+    }
+  ],
+  "elapsed_seconds": 5.7189999999973224
+}

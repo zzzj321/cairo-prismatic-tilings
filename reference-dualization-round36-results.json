@@ -1,0 +1,102 @@
+{
+  "results": [
+    {
+      "name": "p1",
+      "counts": {
+        "S": 7,
+        "T": 14,
+        "C": 8,
+        "P": 6,
+        "HS_edges": 35,
+        "CP_edges": 35
+      },
+      "checks": 9
+    },
+    {
+      "name": "p2",
+      "counts": {
+        "S": 5,
+        "T": 10,
+        "C": 8,
+        "P": 2,
+        "HS_edges": 25,
+        "CP_edges": 25
+      },
+      "checks": 9
+    },
+    {
+      "name": "pg",
+      "counts": {
+        "S": 6,
+        "T": 12,
+        "C": 8,
+        "P": 4,
+        "HS_edges": 30,
+        "CP_edges": 30
+      },
+      "checks": 9
+    },
+    {
+      "name": "pgg",
+      "counts": {
+        "S": 4,
+        "T": 8,
+        "C": 4,
+        "P": 4,
+        "HS_edges": 20,
+        "CP_edges": 20
+      },
+      "checks": 9
+    },
+    {
+      "name": "p4",
+      "counts": {
+        "S": 70,
+        "T": 140,
+        "C": 100,
+        "P": 40,
+        "HS_edges": 350,
+        "CP_edges": 350
+      },
+      "checks": 9
+    },
+    {
+      "name": "p4g",
+      "counts": {
+        "S": 12,
+        "T": 24,
+        "C": 16,
+        "P": 8,
+        "HS_edges": 60,
+        "CP_edges": 60
+      },
+      "checks": 9
+    },
+    {
+      "name": "cmm",
+      "counts": {
+        "S": 26,
+        "T": 52,
+        "C": 32,
+        "P": 20,
+        "HS_edges": 130,
+        "CP_edges": 130
+      },
+      "checks": 9
+    },
+    {
+      "name": "cm",
+      "counts": {
+        "S": 108,
+        "T": 216,
+        "C": 144,
+        "P": 72,
+        "HS_edges": 540,
+        "CP_edges": 540
+      },
+      "checks": 9
+    }
+  ],
+  "elapsed_seconds": 3.3431687000002057,
+  "evidence": "exact-check"
+}

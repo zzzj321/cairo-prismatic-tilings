@@ -1,0 +1,185 @@
+{
+  "coordinate_convention": "Matrix rows and columns are listed in index order. C and P count Cairo and prismatic pentagons in a primitive cell.",
+  "witnesses": {
+    "p1": {
+      "word": [
+        1,
+        1,
+        2,
+        3
+      ],
+      "primitive_pentagons": {
+        "C": 8,
+        "P": 6
+      }
+    },
+    "p2": {
+      "word": [
+        1,
+        1,
+        1,
+        2
+      ],
+      "primitive_pentagons": {
+        "C": 8,
+        "P": 2
+      }
+    },
+    "pg": {
+      "word": [
+        1,
+        1,
+        2,
+        2
+      ],
+      "primitive_pentagons": {
+        "C": 8,
+        "P": 4
+      }
+    },
+    "pgg": {
+      "word": [
+        2
+      ],
+      "primitive_pentagons": {
+        "C": 4,
+        "P": 4
+      }
+    },
+    "p4": {
+      "matrix": [
+        [
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          1,
+          0
+        ]
+      ],
+      "primitive_pentagons": {
+        "C": 20,
+        "P": 8
+      }
+    },
+    "p4g": {
+      "matrix": [
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "primitive_pentagons": {
+        "C": 8,
+        "P": 4
+      }
+    },
+    "cmm": {
+      "matrix": [
+        [
+          1,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          1
+        ]
+      ],
+      "primitive_pentagons": {
+        "C": 16,
+        "P": 10
+      }
+    },
+    "cm": {
+      "matrix": [
+        [
+          1,
+          1,
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          1,
+          0,
+          0,
+          1
+        ],
+        [
+          1,
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          1,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          0,
+          1,
+          1
+        ]
+      ],
+      "primitive_pentagons": {
+        "C": 72,
+        "P": 36
+      }
+    }
+  }
+}
